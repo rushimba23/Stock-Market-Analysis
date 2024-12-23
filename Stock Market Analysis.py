@@ -13,7 +13,6 @@ from xgboost import XGBRegressor
 from sklearn.metrics import mean_squared_error
 import datetime
 
-st.image("stock.png", width=200)
 st.title("Nifty Fifty Stock Analysis with LSTM Prediction")
 
 # Define the Nifty-Fifty sectors and stock tickers
